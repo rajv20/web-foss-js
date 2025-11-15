@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+</head>
+<body>
+    <button onclick="changeColor()" >Click me</button>
+    <script src="script.js"> </script>
+   <h1 class ="hello" id = "heading">hello</h1>
+    
+    <p > this is heading </p>
+    <p class = "para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, maxime! Laborum, exercitationem odio recusandae inventore aspernatur, quo debitis animi sequi libero eligendi esse excepturi alias harum temporibus, beatae praesentium ex! </p>
+    
+    <div> 
+        <p class = "para" align="center" > something</p>
+        
+    </div>
+    
+</body>
+</html>
+
+
+
+//script
+
+function changeColor(){
+         document.body.style.backgroundColor = "yellow"
+}
